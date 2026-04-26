@@ -69,7 +69,7 @@ header p{margin-top:10px;color:var(--pink);font-weight:800;font-size:clamp(1rem,
 </audio>
 
 <script>
-const PREMIUM_URL="COLE_AQUI_O_LINK_PREMIUM_REDAÇÃO";
+const PREMIUM_URL="https://pay.kiwify.com.br/NsDMCx9";
 
 const app=document.getElementById("app");
 const audioBg=document.getElementById("audio-bg");
@@ -193,7 +193,7 @@ function mostrarBloqueio(){
  <div class="lock-box">
  <h2>🔒 MÓDULO PREMIUM</h2>
  <p>Esse módulo está disponível apenas na versão completa do Simulado Redação ENEM.</p>
- <p>No premium você desbloqueia os 12 módulos, 300 questões e treinamento completo.</p>
+ <p>No premium você desbloqueia <strong>12 módulos</strong>, <strong>300 questões</strong> e treinamento completo.</p>
  <button class="btn btn-premium" onclick="irParaPremium()">LIBERAR ACESSO COMPLETO</button>
  <button class="btn btn-voltar" onclick="mostrarMenu()">VOLTAR AO MENU</button>
  </div>`;
@@ -296,7 +296,7 @@ function finalizarArea(){
 
  const notaFinal=acertosObjetivas*20;
  const totalPossivel=200;
- let feedback="Você concluiu uma amostra do treinamento de Redação ENEM. A versão completa possui 12 módulos e 300 questões.";
+ let feedback="Você concluiu uma amostra do treinamento de Redação ENEM. A versão completa possui <strong>12 módulos</strong> e <strong>300 questões</strong>.";
 
  if(notaFinal>=160)feedback+=" Excelente começo. Você já pode avançar para o premium.";
  else if(notaFinal>=100)feedback+=" Bom começo. No premium você reforça os pontos fracos.";
